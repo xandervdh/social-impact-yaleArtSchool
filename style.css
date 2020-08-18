@@ -70,7 +70,8 @@ footer a:hover {
 
 .about {
   margin: 10px 5px;
-  background-color: #FBCA2B;
+  padding: 5px;
+  background-color: #fff;
 }
 
 .gallery {
@@ -83,6 +84,10 @@ footer a:hover {
 
 .apply {
   margin: 10px 5px;
+}
+
+#accordion {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
