@@ -69,7 +69,7 @@ footer a:hover {
 }
 
 .about {
-  padding: 5px;
+  margin: 10px 5px;
   background-color: #FBCA2B;
 }
 
@@ -79,6 +79,10 @@ footer a:hover {
 
 .carousel-item img {
   margin: auto;
+}
+
+.apply {
+  margin: 10px 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

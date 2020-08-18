@@ -10,6 +10,10 @@
   }
 }
 
+@mixin marginItems {
+  margin: 10px 5px;
+}
+
 body {
   background-image: url("images/lowpoly.png");
   background-repeat: no-repeat;
@@ -71,14 +75,18 @@ footer a:hover {
 }
 
 .about {
-  padding: 5px;
+  @include marginItems;
   background-color: #FBCA2B;
 }
 
 .gallery {
-  margin: 10px 5px;
+  @include marginItems
 }
 
 .carousel-item img {
   margin: auto;
+}
+
+.apply {
+  @include marginItems;
 }
