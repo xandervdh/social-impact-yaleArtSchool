@@ -95,3 +95,8 @@ footer a:hover {
 #accordion {
   padding: 10px;
 }
+
+#news {
+  @include marginItems;
+  padding: 10px;
+}
